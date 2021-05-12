@@ -2,6 +2,8 @@
 
 Projeto de Chat para a Disciplina de Redes Cotemig.
 
+Para o projeto rodar, é necessário iniciar o servidor que se localiza em https://github.com/lshangou/chat-redes-server
+
 ## Install the dependencies
 ```bash
 npm install
