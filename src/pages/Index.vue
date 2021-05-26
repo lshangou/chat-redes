@@ -114,7 +114,7 @@ export default {
     }
 
     let vm = this
-    this.socket = this.$io("http://192.168.100.10:7777");
+    this.socket = this.$io("http://35.198.25.14/");
     this.socket.on('chat message', function(obj) {
       //TODO: Guardar Imagem no localStorage
       if(!vm.$q.localStorage.getItem('messageList')) {
